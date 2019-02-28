@@ -1,0 +1,35 @@
+@font-face {
+  src: url(font/NovaSlim.ttf);
+  font-family: nome;
+}
+
+@font-face {
+  src: url(Ghost Factory.ttf);
+  font-family: mandela
+}
+
+*{
+  padding: 0; margin: 0;
+}
+
+body{
+
+}
+
+.title h2 {
+  font-family: nome; color:#B58106; text-align:center; font-size: 50px;
+}
+
+#nav1 {
+  text-align: center; margin: 10px;
+}
+
+#nav1 li {
+  list-style: none; display: inline-block; border-style: none outset; border-width: 1px;
+  border-radius: 20px;
+}
+
+#nav1 a {
+  text-decoration: none; font-size: 18px; font-family: mandela; color: #B58106;
+  padding: 0 5px;
+}
